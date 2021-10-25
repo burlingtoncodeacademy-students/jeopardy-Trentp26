@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--meta data-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Jeopardy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../CSS/final.css" />
   </head>
+
   <body>
+    <!--head-->
     <header id="header">
       <img src="../Images/images.jpeg" alt="Jeopardy" />
     </header>
+    <!--wrapper to hold main items and center them-->
     <div id="wrapper">
       <h1>Final Jeopardy</h1>
-
+      <!--question and category-->
       <div class="container">
         <h1 class="question">Category</h1>
       </div>
@@ -24,6 +31,8 @@
           omnis unde praesentium voluptates.
         </h3>
       </div>
+
+      <!--input box for the bet-->
       <div>
         <input
           type="text"
@@ -32,7 +41,9 @@
           placeholder="What is your bet?"
           required
           size="40"
-        /><input
+        />
+        <!--input box for the answer-->
+        <input
           type="text"
           id="inputBox"
           name="name"
@@ -41,8 +52,10 @@
           size="40"
         />
       </div>
+      <!--bet button-->
       <button class="button">Bet!!!</button>
     </div>
+    <!--reset and and return to main page-->
     <div class="roundContainer">
       <a href="index.html">
         <button class="round2">Restart Game</button>

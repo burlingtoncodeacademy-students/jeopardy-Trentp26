@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--meta data-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,13 +12,20 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
+    <!--header-->
     <header id="header">
       <img src="../Images/images.jpeg" alt="Jeopardy" />
     </header>
+    <!--wrapper to hold and center page items -->
     <div id="wrapper">
       <h1>Double Jeopardy</h1>
+
+      <!--grid to hold jeopardy tiles-->
+
       <div id="grid">
+        <!--jeopardy squares-->
         <div class="jeoSquare">Category</div>
         <div class="jeoSquare">Category</div>
         <div class="jeoSquare">Category</div>
@@ -60,6 +68,8 @@
         <div class="jeoSquare">1000</div>
         <div class="jeoSquare">1000</div>
       </div>
+
+      <!--input box-->
       <input
         type="text"
         id="inputBox"
@@ -68,17 +78,20 @@
         required
         size="40"
       />
+
+      <!--guess and pass buttons-->
       <div>
         <button class="button">guess</button>
         <button class="button">pass</button>
       </div>
 
+      <!--player score holders-->
       <div class="score">
         <p class="score1">Player 1 score: 0</p>
         <p class="score2">Player 2 score: 0</p>
       </div>
     </div>
-
+    <!--button to hit next page/round-->
     <div class="roundContainer">
       <a href="final-jeopardy.html">
         <button class="round2">Final Round</button>
