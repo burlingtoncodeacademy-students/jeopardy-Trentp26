@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="../CSS/round1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Jeopardy image  -->
+      <img src="../Images/images.jpeg" alt="Jeopardy" />
+    </header>
+    <!-- wrapper to hold page contents  -->
+    <div id="wrapper">
+      <h1>Round One</h1>
+      <!--player turn-->
+      <h3 id="player turn">player turn</h3>
+      <!-- grid that holds jeopardy squares  -->
+
+      <div id="grid">
+        <!--jeopardy tiles-->
+        <div class="jeoSquare">Category</div>
+        <div class="jeoSquare">Category</div>
+        <div class="jeoSquare">Category</div>
+        <div class="jeoSquare">Category</div>
+        <div class="jeoSquare">Category</div>
+        <div class="jeoSquare">Category</div>
+
+        <div class="jeoSquare jeoClick">100</div>
+        <div class="jeoSquare jeoClick">100</div>
+        <div class="jeoSquare jeoClick">100</div>
+        <div class="jeoSquare jeoClick">100</div>
+        <div class="jeoSquare jeoClick">100</div>
+        <div class="jeoSquare jeoClick">100</div>
+
+        <div class="jeoSquare jeoClick">200</div>
+        <div class="jeoSquare jeoClick">200</div>
+        <div class="jeoSquare jeoClick">200</div>
+        <div class="jeoSquare jeoClick">200</div>
+        <div class="jeoSquare jeoClick">200</div>
+        <div class="jeoSquare jeoClick">200</div>
+
+        <div class="jeoSquare jeoClick">300</div>
+        <div class="jeoSquare jeoClick">300</div>
+        <div class="jeoSquare jeoClick">300</div>
+        <div class="jeoSquare jeoClick">300</div>
+        <div class="jeoSquare jeoClick">300</div>
+        <div class="jeoSquare jeoClick">300</div>
+
+        <div class="jeoSquare jeoClick">400</div>
+        <div class="jeoSquare jeoClick">400</div>
+        <div class="jeoSquare jeoClick">400</div>
+        <div class="jeoSquare jeoClick">400</div>
+        <div class="jeoSquare jeoClick">400</div>
+        <div class="jeoSquare jeoClick">400</div>
+
+        <div class="jeoSquare jeoClick">500</div>
+        <div class="jeoSquare jeoClick">500</div>
+        <div class="jeoSquare jeoClick">500</div>
+        <div class="jeoSquare jeoClick">500</div>
+        <div class="jeoSquare jeoClick">500</div>
+        <div class="jeoSquare jeoClick">500</div>
+      </div>
+      <!--form to send/link buttons and input -->
+
+      <form id="form">
+        <!--input box-->
+        <input
+          type="text"
+          id="inputBox"
+          name="name"
+          placeholder="What is your answer?"
+          required
+          size="40"
+        />
+
+        <!--guess and pass buttons -->
+        <div>
+          <button id="guessButton" class="button">guess</button>
+          <button id="passButton" class="button">pass</button>
+        </div>
+      </form>
+
+      <!--player score box-->
+      <div class="score">
+        <!--player 1 score-->
+        <div>
+          Player 1 score:
+          <p class="score1">0</p>
+        </div>
+        <!--player 2 score-->
+        <div>
+          Player 2 score:
+          <p class="score2">0</p>
+        </div>
+      </div>
+
+      <!--round timer-->
+      <div id="roundTimer">
+        <div class="timerBox">
+          Round Timer:
+          <div id="gameTimer"></div>
+        </div>
+
+        <!--question timer-->
+        <div class="timerBox">
+          Question Timer:
+          <div id="questionTimer"></div>
+        </div>
+      </div>
+    </div>
+    <!--wrapper ends -->
+
+    <!--button links to next round/page-->
+    <div class="roundContainer">
+      <a href="round-2.html">
+        <button class="round2">Round 2</button>
+      </a>
+    </div>
+    <!--java link-->
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+/* contianer */
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* body items*/
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0%;
+}
+
+#inputBox {
+  border: crimson solid 3px;
+  margin: 15px;
+}
+
+.button {
+  margin: 15px;
+  height: 40px;
+  width: 80px;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: stretch;
+  width: 90vw;
+  display: flex;
+  font-size: 30px;
+}
+
+.score1 {
+  display: flex;
+  font-size: 30px;
+}
+
+.score2 {
+  display: flex;
+  font-size: 30px;
+}
+
+.roundContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.round2 {
+  height: 40px;
+  width: 80px;
+}
+
+#roundTimer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: stretch;
+  width: 90vw;
+}
+.timerBox {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+}
+
+body {
+  background-color: blueviolet;
+  margin-bottom: 50px;
+  font-family: "Scheherazade New", serif;
+}
+
+/* jeopardy grid */
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 900px;
+  height: 600px;
+  gap: 1rem;
+  grid-template-areas:
+    "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare"
+    "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare"
+    "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare"
+    "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare"
+    "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare";
+}
+
+.jeoSquare {
+  grid-area: "jeoSquare";
+  border: crimson solid 3px;
+  text-align: center;
+  color: yellow;
+  font-size: 40px;
+}
