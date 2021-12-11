@@ -12,8 +12,9 @@ let guessButton = document.getElementById("guessButton");
 let form = document.getElementById("form");
 let player1Score = document.getElementById("score1");
 let player2Score = document.getElementById("score2");
+let BetButton = document.getElementById("betButton")
 
-//js var
+//js varebles 
 let idTimer = null;
 let idTimer2 = null;
 let activeSquare;
@@ -22,9 +23,10 @@ count2 = 5;
 
 //paige loads.. buttons disable, round timer starts and player one is set
 
-//on the click disable the guess and pass buttons
+//on the load disable the guess, pass and bet buttons
 guessAndPassButton[0].disabled = true;
 guessAndPassButton[1].disabled = true;
+BetButton.disabled = true;
 //calling to timer function to start timer
 roundTimer();
 

@@ -26,10 +26,11 @@
 
 .question {
   display: flex;
+  border-radius: 30px;
   justify-content: center;
   border: crimson solid 3px;
   background-color: crimson;
-  height: 100px;
+  height: 70px;
 }
 
 #inputBox {

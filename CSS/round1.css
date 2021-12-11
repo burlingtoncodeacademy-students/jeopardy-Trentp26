@@ -1,5 +1,5 @@
 /* contianer */
-
+/* page wrapper */
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -17,23 +17,23 @@
   display: flex;
   justify-content: center;
 }
-
+/* jeopardy header */
 h1 {
   font-size: 50px;
   margin-bottom: 0%;
 }
-
+/* answer input box */
 #inputBox {
   border: crimson solid 3px;
   margin: 15px;
 }
-
+/* guess and pass button styling */
 .button {
   margin: 15px;
   height: 40px;
   width: 80px;
 }
-
+/* score boxes  */
 .score {
   display: flex;
   flex-direction: row;
@@ -53,17 +53,17 @@ h1 {
   display: flex;
   font-size: 30px;
 }
-
+/* current round container  */
 .roundContainer {
   display: flex;
   justify-content: flex-end;
 }
-
+/* current round  */
 .round2 {
   height: 40px;
   width: 80px;
 }
-
+/* round timer styling  */
 #roundTimer {
   display: flex;
   flex-direction: row;
@@ -71,12 +71,13 @@ h1 {
   justify-items: stretch;
   width: 90vw;
 }
+/* timers surounding div box  */
 .timerBox {
   display: flex;
   flex-direction: row;
   font-size: 30px;
 }
-
+/* pages body styling  */
 body {
   background-color: blueviolet;
   margin-bottom: 50px;
@@ -99,7 +100,7 @@ body {
     "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare"
     "jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare jeoSquare";
 }
-
+/* style for grid */
 .jeoSquare {
   grid-area: "jeoSquare";
   border: crimson solid 3px;
