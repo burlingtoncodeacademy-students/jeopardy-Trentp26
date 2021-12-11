@@ -1,5 +1,5 @@
 /* continer */
-
+/* page wrapper */
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -17,13 +17,13 @@
   display: flex;
   justify-content: center;
 }
-
+/* question header and question prompt wrapper */
 .container {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-
+/* question wrapping and styling  */
 .question {
   display: flex;
   border-radius: 30px;
@@ -32,25 +32,25 @@
   background-color: crimson;
   height: 70px;
 }
-
+/* input box for the answer */
 #inputBox {
   margin: 15px;
   float: left;
 }
-
+/* bet button styling  */
 .button {
   display: flex;
   justify-content: center;
   height: 30px;
   width: 100px;
 }
-
+/* page body wrapping  */
 body {
   background-color: blueviolet;
   margin-bottom: 50px;
   font-family: "Scheherazade New", serif;
 }
-
+/* button styling  */
 .button {
   margin: 15px;
   height: 40px;
